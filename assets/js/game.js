@@ -165,6 +165,16 @@ var shop = function() {
   }
 };
 
+var getPlayerName = function(){
+  var name = "";
+
+  while (name === "" || name === null) {
+    name = prompt("What is your robot's name?");
+  }
+  console.log("your robot's name is " + name);
+  return name;
+}
+
 /* END GAME FUNCTIONS */
 
 /* GAME INFORMATION / VARIABLES */
